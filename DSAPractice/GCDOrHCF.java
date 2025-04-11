@@ -11,6 +11,7 @@ public class GCDOrHCF {
         for (int i = Math.min(n1, n2); i >= 1; i--) {
             if (n1 % i == 0 &&  n2 % i == 0) {
                 gcd = i;
+                // Once if condition satisfies it breaks the loop
                 break;
             }
         }
