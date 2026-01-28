@@ -8,7 +8,7 @@ public static void main(String[] args) {
         else b = b % a;
     }
 
-    if(a == 0) System.out.println(b);
-    if(b == 0) System.out.println(a);
+    if(a == 0) System.out.println("b: " + b);
+    if(b == 0) System.out.println("a: " + a);
 }
 }
