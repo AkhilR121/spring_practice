@@ -5,6 +5,7 @@ public class Sorting {
         SelectionSort ss = new SelectionSort();
         BubbleSort bs = new BubbleSort();
         InsertionSort ins = new InsertionSort();
+
         ss.selectionSorting(arr);
         bs.bubbleSorting(arr);
         ins.insertionSorting(arr);
